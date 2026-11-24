@@ -62,7 +62,7 @@ endmodule
 module rca8(input wire [7:0] A,
             input wire [7:0] B,
             input wire       cin,
-            output wire [7:0] SUM,
+            output wire [7:0] O,
             output wire      cout);
     wire [7:0] carry;
     
