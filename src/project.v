@@ -24,7 +24,7 @@ module tt_um_8bitadder (
       .A(ui_in),
       .B(uio_in),
       .cin(1'b0),    // Assuming no carry-in for simplicity
-      .SUM(sum),
+      .O(sum),
       .cout(cout)
   );
 
